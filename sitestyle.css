@@ -1,4 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+  font-family: 'Fredoka One', cursive;
+}
 h1{
   text-align: center;
   background-color: pink;
+  margin: 50px;
+  height: 100px;
+  padding: 20px;
+ 
+}
+
+.board{
+  border: 3px black;
+  background-color: salmon;
+  float: left;
+  margin: 50px;
+  font-size: 20px;
+  line-height: 30px;
 }
