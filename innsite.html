@@ -1,35 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Innsite</title>
-  <link href="sitestyle.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sitestyle.css">
 </head>
 <body>
-  <div id="link">
-    <a href="https://www.instagram.com/innie09/">Instagram</a>
-    <a href="https://www.facebook.com/">Facebook</a>
-  </div>
-  <div>
-      <h1> Inn's Website</h1>
-  </div>
+  <div id="container">    
+    <header>
+      <div id="logo">
+        <a href="innsite.html">
+          <h1>Innsite</h1>
+        </a>
+      </div>
+      <nav>
+        <ul id="topMenu">
+          <li><a href="#">음 <span>▼</span></a>
+            <ul>
+              <li><a href="#">음</a></li>
+              <li><a href="#">음</a></li>
+            </ul>
+          </li>
+          <li><a href="#">음<span>▼</span></a>
+            <ul>
+              <li><a href="#">ㅇ</a></li>
+              <li><a href="#">ㅇ</a></li>
+              <li><a href="#">ㅇ</a></li>
+            </ul>
+          </li>
+          <li><a href="#">갤러리</a></li>
+          <li><a href="#">문의하기</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="slideShow">
+      <div id="slides">
+        <img src="#" alt="">
+        <button id="prev">&lang;</button>
+        <button id="next">&rang;</button>
+      </div>
+    </div>
+    <div id="contents">
+      <div id="tabMenu">
+        <input type="radio" id="tab1" name="tabs" checked>
+        <label for="tab1">Information</label>
+        <input type="radio" id="tab2" name="tabs">
+        <label for="tab2">흠</label>      
+        <div id="notice" class="tabContent">
+          <h2>몰</h2>
+          <ul>            
+            <li>School : SUNY Korea</li>
+            <li>Major : Computer Science</li>
+          </ul>
+        </div>
+        <div id="gallery" class="tabContent">
+          <h2>갤러리 내용입니다.</h2>
+          <ul>
+            <li><img src="#"></li>                   
+          </ul>
+        </div>        
+      </div>
+      <div id="links">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/innie09/">
+              <span id="quick-icon1"></span>
+              <p>Instagram</p>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100001395268437">
+              <span id="quick-icon2"></span>
+              <p>Facebook</p>
+            </a>            
+          </li>
+          <li>
+            <a href="https://blog.naver.com/inniemini00">
+              <span id="quick-icon3"></span>
+              <p>Blog</p>
+            </a>            
+          </li>
+        </ul>
+      </div>
+    </div>  
+    <footer>    
+      <div id="bottomMenu">
+        <ul>
+          <li>이메일: dldls0917@naver.com</li>
+          <li>전화번호: 010-9801-5006</li>
+        </ul>
+      </div> 
+    </footer>  
+  </div> 
 
-  <span>
-    <ul class="board"> 
-      <h3>Personal Information</h3>
-      <li> School: SUNY Korea</li>
-      <li> Major: Computer Science</li>
-      <li> Birth: 2000.09.17</li>
-    </ul>
-    <span class="album">
-      <h3><a href="../photos.html">Photo Album</a></h3>
-    </span>
-  </span>
-  
-  <div class="document">
-  <script src="style.js"> </script>
-  </div>
+  <script src="style.js"></script>
 </body>
 </html>
-
